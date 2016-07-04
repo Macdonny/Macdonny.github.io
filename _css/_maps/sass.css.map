@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["sass.scss"],"sourcesContent":[""],"file":"sass.css","sourceRoot":"/source/"}
+{"version":3,"file":"sass.css","sources":["sass.scss"],"sourcesContent":["/**\n * Sass stylesheet. It's compiled css is in ./_css directory as sass.scss\n */\n\n // $font-stack:    Helvetica, sans-serif;\n // $primary-color: #333;\n //\n // body{\n //   font: 100% $font-stack;\n //   color: $primary-color;\n // }\n"],"mappings":"AAAA;;GAEG","names":[],"sourceRoot":"/source/"}

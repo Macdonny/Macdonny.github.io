@@ -17,5 +17,5 @@ gulp.task('sass', function () {
 });
 
 gulp.task('sass:watch', function () {
-  gulp.watch(['./bower_components/Materialize/sass/\**/*.scss', './_sass/\**/\*.scss'], ['sass']);
+  gulp.watch(['./_sass/\**/\*.scss'], ['sass']);
 });
