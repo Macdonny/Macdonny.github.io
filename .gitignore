@@ -38,3 +38,4 @@ Thumbs.db
 _site/*
 .jekyll-metadata
 .sass-cache/*
+node_modules

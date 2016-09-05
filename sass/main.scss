@@ -1,13 +1,9 @@
----
----
-
-/* Custom Stylesheet */
 /**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
+ * Sass stylesheet. It's compiled css is in ./_css directory as sass.scss
  */
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
 
 nav ul a,
 nav .brand-logo {

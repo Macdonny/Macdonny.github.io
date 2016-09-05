@@ -9,13 +9,13 @@ gulp.task('default', function() {
 });
 
 gulp.task('sass', function () {
-  return gulp.src(['./bower_components/Materialize/sass/\**/\*.scss', './_sass/\**/\*.scss'])
+  return gulp.src(['./bower_components/Materialize/sass/\**/\*.scss', './sass/\**/\*.scss'])
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write('./_maps'))
-    .pipe(gulp.dest('./_css'));
+    .pipe(gulp.dest('./css/'));
 });
 
 gulp.task('sass:watch', function () {
-  gulp.watch(['./_sass/\**/\*.scss'], ['sass']);
+  gulp.watch(['./sass/\**/\*.scss'], ['sass']);
 });
