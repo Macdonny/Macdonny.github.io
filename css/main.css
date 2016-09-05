@@ -1,15 +1,39 @@
 /**
  * Sass stylesheet. It's compiled css is in ./_css directory as sass.scss
  */
-nav ul a,
-nav .brand-logo {
-  color: #444; }
+/* 
+	Light Blue 500, 100: BBDEFB 700: 1976D2
+*/
+body {
+  font-family: "Raleway", sans-serif; }
+  body p {
+    line-height: 2rem; }
 
-p {
-  line-height: 2rem; }
+nav ul a, nav .brand-logo {
+  color: #444;
+  height: 50px; }
+
+nav ul a:hover {
+  background-color: transparent;
+  border-bottom: 1px #2196F3 solid; }
+
+nav .brand-logo {
+  font-family: "Anton", Georgia, Times, serif; }
+
+img.responsive-img.profile {
+  max-width: 250px; }
 
 .button-collapse {
   color: #26a69a; }
+
+.btn, .btn-large {
+  background-color: #2196F3; }
+
+.btn:hover, .btn-large:hover {
+  background-color: #64B5F6; }
+
+#index-banner .section {
+  padding-top: 8rem; }
 
 .parallax-container {
   min-height: 380px;

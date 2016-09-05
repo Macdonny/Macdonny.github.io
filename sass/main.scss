@@ -2,20 +2,61 @@
  * Sass stylesheet. It's compiled css is in ./_css directory as sass.scss
  */
 
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+$title-font-stack: 'Anton', Georgia, Times, serif;
+$header-font-stack: 'Roboto', Helvetica, Arial, sans-serif;
+$body-font-stack: 'Raleway', sans-serif;
+$primary-color1: #64B5F6;
+$primary-color2: #2196F3;
+$primary-color3: #1976D2;
+/* 
+	Light Blue 500, 100: BBDEFB 700: 1976D2
+*/
+$secondary-color: #b9f6ca; //Mint Green
+											//Black & White
 
-nav ul a,
-nav .brand-logo {
-  color: #444;
+body {
+	font-family: $body-font-stack;
+	p {
+  	line-height: 2rem;
+	}
 }
 
-p {
-  line-height: 2rem;
+nav {
+	ul a, .brand-logo {
+		color: #444;
+		height: 50px;
+	}
+	
+	ul a:hover {
+		background-color: transparent;
+		border-bottom: 1px $primary-color2 solid;
+	}
+	
+	.brand-logo {
+		font-family: $title-font-stack;
+	}
+}
+
+img.responsive-img.profile {
+	max-width: 250px;
 }
 
 .button-collapse {
   color: #26a69a;
+}
+
+.btn, .btn-large {
+	background-color: $primary-color2;
+}
+
+.btn:hover, .btn-large:hover {
+	background-color: $primary-color1;
+}
+
+#index-banner {
+	.section {
+		padding-top: 8rem;
+	}
 }
 
 .parallax-container {
@@ -24,9 +65,10 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+
+.parallax-container .section {
+	width: 100%;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -49,6 +91,10 @@ p {
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+.profile {
+	
 }
 
 footer.page-footer {
