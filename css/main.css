@@ -1,7 +1,7 @@
 /**
  * Sass stylesheet. It's compiled css is in ./_css directory as sass.scss
  */
-/* 
+/*
 	Light Blue 500, 100: BBDEFB 700: 1976D2
 */
 body {
@@ -9,25 +9,37 @@ body {
   body p {
     line-height: 2rem; }
 
-nav ul a, nav .brand-logo {
-  color: #444;
-  height: 50px; }
-
-nav ul a:hover {
+nav {
   background-color: transparent;
-  border-bottom: 1px #2196F3 solid; }
+  box-shadow: none;
+}
+  nav ul {
+      text-align: center; }
+  nav ul a {
+    padding: 0 30px;
+    height: 50px; }
+  nav ul a:hover {
+    background-color: transparent;
+    border-bottom: 1px #2e7d32 solid; }
+  nav ul li {
+    font-size: 2rem;
+    display: inline-block;
+    float: none; }
+  nav .brand-logo {
+    font-family: "Anton", Georgia, Times, serif; }
 
-nav .brand-logo {
-  font-family: "Anton", Georgia, Times, serif; }
+.section.no-pad-bot {
+    padding-bottom: 10rem;
+}
 
 img.responsive-img.profile {
   max-width: 250px; }
 
 .button-collapse {
-  color: #26a69a; }
+  color: #2e7d32; }
 
 .btn, .btn-large {
-  background-color: #2196F3; }
+  background-color: #2e7d32; }
 
 .btn:hover, .btn-large:hover {
   background-color: #64B5F6; }
@@ -62,6 +74,7 @@ img.responsive-img.profile {
   font-size: inherit; }
 
 footer.page-footer {
+  background-color: #2196F3;
   margin: 0; }
 
 /*# sourceMappingURL=_maps/main.css.map */
